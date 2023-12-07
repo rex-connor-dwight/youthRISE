@@ -10,18 +10,18 @@
     
     <!-- Header -->
 
-    <header>
+    <header id="headSection">
 
       <a href="#"><img src="images/yrHeaderLogo.png" alt="logo"></a>
 
-        <nav>
+        <nav id="ulList">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li class="resources"> 
               <a href="#">Program</a> 
               <ul>
-                <li><a href="#">Drug Policy Reform</a></li>
+                <li ><a href="#">Drug Policy Reform</a></li>
                 <li><a href="#">Health</a></li>
                 <li><a href="#">Youth Empowerment</a></li>
                 <li><a href="#">Research</a></li>
@@ -40,11 +40,13 @@
           </ul>
         </nav>
 
-        <button id="nav"><img src="images/hamburger.png" alt=""></button>
+        <button id="nav" onclick="openNavBar()"><img id="navImage" src="images/hamburger.png" alt=""></button>
+
+        <button id="navAlpha" onclick="closeNavBar()"><img id="navImage" src="images/cancel.png" alt=""></button>
 
     </header>
 
-    <section class="home">
+    <section id="home" class="home">
 
       <div class="homeContainer">
         <h1>Drug policy reform <br>
@@ -73,5 +75,11 @@
         </div>
       </div>
     </section>
+
+
+
+
+
+    <script src="nav.js"></script>
 </body>
 </html>
