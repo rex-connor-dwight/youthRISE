@@ -47,6 +47,7 @@
     --darkGreen: #06100e;
     --grayAuto: #51645d;
     --defaultWhite: #f7fffe;
+    --AuxilaryWhite: #e5f6f4;
 }
 
 *{
@@ -242,6 +243,116 @@ body{
 
 
 
+.about{
+  display: none;
+  background: var(--AuxilaryWhite);
+  color: var(--darkGreen);
+  padding: 20vh 4vw 7vh 4vw;
+}
+
+.aboutUs{
+  background: url(images/aboutUsBg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--AuxilaryWhite);
+  padding: 4vw;
+  border-radius: .1rem;
+}
+
+.aboutUs h1{
+  color: var(--lightGreen);
+  font-size: 2.5vw;
+  font-weight: 900;
+  font-family: "AvenirRoman";
+  margin-bottom: 3vh;
+}
+
+.aboutUs p{
+  font-size: 1.3vw;
+  font-weight: 400;
+  font-family: "AvenirBook";
+}
+
+.aboutUs p span{
+  font-size: 1.3vw;
+  font-weight: 900;
+  font-family: "AvenirRoman";
+  line-height: 10vh;
+}
+
+.highlights{
+  margin-top: 6vh;
+}
+
+.highlights h1{
+  font-size: 1.3vw;
+  font-weight: 900;
+  font-family:  "AvenirRoman";
+}
+
+.highlights h1 span{
+  font-size: .8vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  margin-left: 1vw;
+}
+
+.highlightContainer{
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.highlightYear{
+  width: 10%;
+  background: var(--darkGreen);
+  color: var(--defaultWhite);
+  padding: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlightYear select{
+  border: 0;
+  background: none;
+  color: var(--AuxilaryWhite);
+  font-size: 1.4vw;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.highlightYear select:focus{
+  outline: none;
+}
+
+.highlightYear  img{
+  max-width: 1vw;
+  height: auto;
+  margin-left: .5vw;
+}
+
+
+.highlightContent{
+  width: 77%;
+  background: var(--grayAuto);
+  color: var(--defaultWhite);
+  padding: 2.5vh;
+}
+
+.highlightContent p{
+  font-size: 1vw;
+  font-weight: 400;
+  font-family: "AvenirBook";
+}
+
+
+
+
+
+
 
 
 
@@ -257,7 +368,7 @@ body{
     position: absolute;
     width: 86vw;
     height: 92vh;
-    z-index: 1;
+    z-index: 2;
   }
   
   header img{
@@ -284,7 +395,7 @@ body{
   }
   
   header  ul li {
-    margin-left: 2rem;
+    margin-left: 2.5rem;
     margin-bottom: 4vh;
     font-size: 4vw;
     font-weight: 500;
@@ -455,6 +566,113 @@ body{
     font-weight: 400;
     font-family: "AvenirBook";
     color: var(--lightGreen);
+  }
+
+
+
+  .about{
+    display: none;
+    background: var(--AuxilaryWhite);
+    color: var(--darkGreen);
+    padding: 14vh 4vw 7vh 4vw;
+  }
+
+  .aboutUs{
+    background: url(images/aboutUsBg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--AuxilaryWhite);
+    padding: 4vw;
+    border-radius: .1rem;
+  }
+
+  .aboutUs h1{
+    color: var(--lightGreen);
+    font-size: 4vw;
+    font-weight: 900;
+    font-family: "AvenirRoman";
+    margin-bottom: 1.3vh;
+  }
+
+  .aboutUs p{
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: "AvenirBook";
+  }
+
+  .aboutUs p span{
+    font-size: 2.5vw;
+    font-weight: 900;
+    font-family: "AvenirRoman";
+    line-height: 4vh;
+  }
+
+  .highlights{
+    margin-top: 4vh;
+  }
+
+  .highlights h1{
+    font-size: 3.5vw;
+    font-weight: 900;
+    font-family:  "AvenirRoman";
+  }
+
+  .highlights h1 span{
+    font-size: 1.8vw;
+    font-weight: 400;
+    font-family: "AvenirRoman";
+    margin-left: 1vw;
+  }
+
+  .highlightContainer{
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .highlightYear{
+    width: 14%;
+    background: var(--darkGreen);
+    color: var(--defaultWhite);
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .highlightYear select{
+    border: 0;
+    background: none;
+    color: var(--AuxilaryWhite);
+    font-size: 3.3vw;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .highlightYear select:focus{
+    outline: none;
+  }
+
+  .highlightYear  img{
+    max-width: 2.2vw;
+    height: auto;
+    margin-left: .9vw;
+  }
+
+
+  .highlightContent{
+    width: 62%;
+    background: var(--grayAuto);
+    color: var(--defaultWhite);
+    padding: 2.5vh;
+  }
+
+  .highlightContent p{
+    font-size: 2vw;
+    font-weight: 400;
+    font-family: "AvenirBook";
   }
   
 }
