@@ -23,7 +23,6 @@ const yrHeaderLogo = document.getElementById('yrHeaderLogo');
   
 
 
-
 function openNavBar() {
     ulList.style.display = 'flex';
     headSection.style.background = '#06100e'
@@ -39,51 +38,51 @@ function closeNavBar(){
     navImage.style.display = 'block';
 }
 
-function homePage(){
-    home.style.display = 'flex';
-    about.style.display = 'none';
-    yrHeaderLogo.src = 'images/yrHeaderLogo.png';
-    liDefault.style.color = '#f7fffe';
-    liOne.style.color = '#f7fffe';
-    liTwo.style.color = '#f7fffe';
-    liThree.style.color = '#f7fffe';
-    liFour.style.color = '#f7fffe';
-    liFive.style.color = '#f7fffe';
-    liSix.style.color = '#f7fffe';
-}
+// function homePage(){
+//     home.style.display = 'flex';
+//     about.style.display = 'none';
+//     yrHeaderLogo.src = 'images/yrHeaderLogo.png';
+//     liDefault.style.color = '#f7fffe';
+//     liOne.style.color = '#f7fffe';
+//     liTwo.style.color = '#f7fffe';
+//     liThree.style.color = '#f7fffe';
+//     liFour.style.color = '#f7fffe';
+//     liFive.style.color = '#f7fffe';
+//     liSix.style.color = '#f7fffe';
+// }
 
 
 
-function aboutUsPage(){
-    home.style.display = 'none';
-    about.style.display = 'block';
-    yrHeaderLogo.src = 'images/yrLogoDark.png';
-    liDefault.style.color = '#06100e';
-    liOne.style.color = '#06100e';
-    liTwo.style.color = '#06100e';
-    liThree.style.color = '#06100e';
-    liFour.style.color = '#06100e';
-    liFive.style.color = '#06100e';
-    liSix.style.color = '#06100e';
-    navImage.src = 'images/hamburgerDark.png';
-    navImageOne.style.display = 'block';
-    ulList.style.display = 'flex';
-}
+// function aboutUsPage(){
+//     home.style.display = 'none';
+//     about.style.display = 'block';
+//     yrHeaderLogo.src = 'images/yrLogoDark.png';
+//     liDefault.style.color = '#06100e';
+//     liOne.style.color = '#06100e';
+//     liTwo.style.color = '#06100e';
+//     liThree.style.color = '#06100e';
+//     liFour.style.color = '#06100e';
+//     liFive.style.color = '#06100e';
+//     liSix.style.color = '#06100e';
+//     navImage.src = 'images/hamburgerDark.png';
+//     navImageOne.style.display = 'block';
+//     ulList.style.display = 'flex';
+// }
 
 
-function mobileAbout(){
+// function mobileAbout(){
 
-    var windowWidth = window.innerWidth;
+//     var windowWidth = window.innerWidth;
 
-    if (windowWidth < 600){
-        closeNavBar();
-        aboutUsPage()
-        ulList.style.display = 'none';
-    } else {
-        aboutUsPage()
-    }
+//     if (windowWidth < 600){
+//         closeNavBar();
+//         aboutUsPage()
+//         ulList.style.display = 'none';
+//     } else {
+//         aboutUsPage()
+//     }
     
 
-}
+// }
 
 

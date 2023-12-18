@@ -12,12 +12,12 @@
 
     <header id="headSection">
 
-      <a onclick="homePage()"  href="#"><img id="yrHeaderLogo" src="images/yrHeaderLogo.png" alt="logo"></a>
+      <a  href="#"><img id="yrHeaderLogo" src="images/yrHeaderLogo.png" alt="logo"></a>
 
         <nav id="ulList">
           <ul>
-            <li><a onclick="homePage()" id="liDefault"  href="#">Home</a></li>
-            <li><a onclick="mobileAbout()" id="liOne" href="#">About Us</a></li>
+            <li><a id="liDefault"  href="index.html">Home</a></li>
+            <li><a id="liOne" href="about.html">About Us</a></li>
             <li class="resources"> 
               <a id="liTwo"  href="#">Program</a> 
               <ul>
@@ -31,7 +31,7 @@
               <a id="liThree"  href="#">Resources</a>
               <ul>
                 <li><a href="#">Annual Report</a></li>
-                <li><a href="#">Publications</a></li>
+                <li><a href="#">Publications</a></li> 
               </ul>
             </li>
             <li><a id="liFour"  href="#">Campaigns</a></li>
@@ -45,6 +45,11 @@
         <button id="navAlpha" onclick="closeNavBar()"><img id="navImageOne" src="images/cancel.png" alt=""></button>
 
     </header>
+
+
+
+
+
 
     <section id="home" class="home">
 
@@ -77,52 +82,12 @@
     </section>
 
 
-    <section id="about" class="about">
-
-      <div class="aboutUs">
-        <h1>About Us</h1>
-        <p>
-          YouthRISE Nigeria is an advocacy and service based organization with a mandate to promote human rights, access to quality healthcare, harm reduction, social justice and development for young people especially those vulnerable to drug use. Through strategic engagement with stakeholders and communities, we continue to champion drug policy reform and ensure better health outcomes for underserved communities. We are a recipient of the UNAIDS Red Ribbon Award. <br>
-
-          <span>
-            YouthRISE Nigeria has special consultative status with the United Nations Economic and Social Council (ECOSOC).
-          </span>
-        </p>
-      </div>
-
-      <div class="highlights">
-        <h1> Highlights <span>Select year to view content</span></h1>
-
-        <div class="highlightContainer">
-          <div class="highlightYear">
-            <select name="highlightYear" id="highlightYear" onchange="updateHighlight()">
-              <option value="2015">2015</option>
-              <option value="2016">2016</option>
-              <option value="2017">2017</option>
-              <option value="2018">2018</option>
-              <option value="2019">2019</option>
-              <option value="2020">2020</option>
-              <option value="2021">2021</option>
-              <option value="2022">2022</option>
-              <option value="2023">2023</option>
-            </select>
-
-            <img src="images/liDropdown.png" alt="">
-          </div>
-
-          <div class="highlightContent">
-            <p id="dynamicHighlight">HIV service provision to people who use/inject drugs</p>
-          </div>
-        </div>
-      </div>
-
-    </section>
+    
 
 
 
 
 
     <script src="nav.js"></script>
-    <script src="about.js"></script>
 </body>
 </html>

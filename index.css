@@ -244,7 +244,8 @@ body{
 
 
 .about{
-  display: none;
+  display: flex;
+  flex-direction: column;
   background: var(--AuxilaryWhite);
   color: var(--darkGreen);
   padding: 20vh 4vw 7vh 4vw;
@@ -571,7 +572,8 @@ body{
 
 
   .about{
-    display: none;
+    display: flex;
+    flex-direction: column;
     background: var(--AuxilaryWhite);
     color: var(--darkGreen);
     padding: 14vh 4vw 7vh 4vw;
