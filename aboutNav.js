@@ -32,6 +32,7 @@ function openNavBar() {
     navAlpha.style.display = 'block';
     yrHeaderLogo.src = 'images/yrHeaderLogo.png';
     highlightContainer.style.display = 'none';
+    about.style.display = 'none'
 }
 
 
@@ -42,6 +43,7 @@ function closeNavBar(){
     navImage.style.display = 'block';
     yrHeaderLogo.src = 'images/yrLogoDark.png';
     highlightContainer.style.display = 'flex';
+    about.style.display = 'flex'
 }
 
 

@@ -77,7 +77,7 @@ header{
   margin: 0;
   padding: 4vh 5%;
   position: absolute;
-  width: 90vw;
+  width: 90%;
   color: var(--darkGreen);
   z-index: 3;
 }
@@ -166,10 +166,10 @@ body{
     flex-direction: column;
     background: var(--AuxilaryWhite);
     color: var(--darkGreen);
-    padding: 20vh 4vw 7vh 4vw;
+    padding: 20vh 4vw 0 4vw;
 }
   
-  .aboutUs{
+.aboutUs{
     background: url(images/aboutUsBg.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -178,7 +178,7 @@ body{
     border-radius: .1rem;
 }
   
-  .aboutUs h1{
+.aboutUs h1{
     color: var(--lightGreen);
     font-size: 2.5vw;
     font-weight: 900;
@@ -186,13 +186,13 @@ body{
     margin-bottom: 3vh;
 }
   
-  .aboutUs p{
+.aboutUs p{
     font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirBook";
 }
   
-  .aboutUs h2{
+.aboutUs h2{
     font-size: 1.3vw;
     font-weight: 900;
     font-family: "AvenirRoman";
@@ -201,7 +201,7 @@ body{
 
 
 .highlights{
-    margin-top: 6vh;
+    margin: 17vh 0 3vh 0;
   }
   
   .highlights h1{
@@ -264,12 +264,136 @@ body{
     padding: 2.5vh;
   }
   
-  .highlightContent p{
+.highlightContent p{
     font-size: 1vw;
     font-weight: 400;
     font-family: "AvenirBook";
   }
+
+
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7% 0;
+}
+
+.historyText{
+    width: 60%;
+}
+
+.historyText h1{
+  font-size: 2vw;
+  font-weight: 400;
+  font-family: "AvenirHeavy";
+  margin-bottom: 2vh;
+}
+
+.historyText p{
+  font-size: 1vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  padding-right: 5%;
+}
+
+.historyVideo{
+    width: 40%;
+}
+
+.historyVideo video{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.boardMembers{
+  display: flex;
+  flex-direction: column;
+}
+
+.boardMembers h1{
+  font-size: 2vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  margin-bottom: 2vh;
+}
+
+.boardMembers h1 span{
+  font-size: 2vw;
+  font-weight: 700;
+  font-family: "AvenirHeavy";
+
+}
+
+.membersContainer{
+  display: flex;
+  align-items: center;
+  width: auto;
+  overflow: scroll;
+  height: 45vh;
   
+}
+
+.membersContainer::-webkit-scrollbar{
+  display: none;
+}
+
+.membersCard{
+  min-width: 20%;
+  height: inherit;
+  background: url(images/boardImg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: .3vw;
+  border-radius: .2rem;
+  overflow-y: hidden;
+}
+
+.membersCard h3{
+  font-size: 1.1vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  margin-bottom: 2vh;
+  color: var(--AuxilaryWhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+
+
+.missionAndVision{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--grayAuto);
+  padding:12vh 4vw;
+  margin: 10vh -4vw 0 -4vw;
+  color: var(--AuxilaryWhite);
+}
+
+.mands{
+  width: 50%;
+}
+
+.mands h1 span{
+  font-weight: 900;
+  font-family: "AvenirHeavy";
+}
+
+.mands h1{
+  font-size: 3vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+}
+
+.mands p{
+  font-size: 1.4vw;
+  padding-right: 4vw;
+  font-weight: 400;
+  font-family: "ArconRegular";
+  margin-top: 2vh;
+}
 
 
 
@@ -294,7 +418,7 @@ body{
       margin: 0;
       padding: 4vh 7vw;
       position: absolute;
-      width: 86vw;
+      width: 85%;
       height: 92vh;
       z-index: 2;
     }
@@ -406,7 +530,7 @@ body{
     flex-direction: column;
     background: var(--AuxilaryWhite);
     color: var(--darkGreen);
-    padding: 14vh 4vw 7vh 4vw;
+    padding: 14vh 4vw 0vh 4vw;
   }
 
   .aboutUs{
@@ -451,7 +575,7 @@ body{
   }
 
   .highlights h1 span{
-    font-size: 1.8vw;
+    font-size: 2.1vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     margin-left: 1vw;
@@ -507,6 +631,137 @@ body{
     font-size: 2vw;
     font-weight: 400;
     font-family: "AvenirBook";
+  }
+
+
+
+  .history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 0;
+  }
+
+  .historyText{
+    width: 100%;
+  }
+
+  .historyText h1{
+  font-size: 6vw;
+  font-weight: 400;
+  font-family: "AvenirHeavy";
+  margin-bottom: 0vh;
+  }
+
+  .historyText p{
+  font-size: 2.5vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  padding-right: 0%;
+  margin-bottom: 3vh;
+  }
+
+  .historyVideo{
+    width: 100%;
+  }
+
+  .historyVideo video{
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .boardMembers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+  }
+  
+  .boardMembers h1{
+    font-size: 6vw;
+    font-weight: 400;
+    font-family: "AvenirRoman";
+    margin-bottom: 2vh;
+  }
+  
+  .boardMembers h1 span{
+    font-size: 6vw;
+    font-weight: 700;
+    font-family: "AvenirHeavy";
+  
+  }
+  
+  .membersContainer{
+    display: flex;
+    align-items: center;
+    width: auto;
+    overflow: scroll;
+    height: 30vh;
+    
+  }
+  
+  .membersContainer::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .membersCard{
+    min-width: 45%;
+    height: inherit;
+    background: url(images/boardImg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: .3vw;
+    border-radius: .2rem;
+    overflow-y: hidden;
+  }
+  
+  .membersCard h3{
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: "AvenirRoman";
+    margin-bottom: 2vh;
+    color: var(--AuxilaryWhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+  }
+
+
+  .missionAndVision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--grayAuto);
+    padding: 3vh 4vw;
+    margin: 5vh -4vw 0 -4vw;
+    color: var(--AuxilaryWhite);
+  }
+  
+  .mands{
+    width: 100%;
+    margin: 2.5vh 0;
+  }
+  
+  .mands h1 span{
+    font-weight: 900;
+    font-family: "AvenirHeavy";
+  }
+  
+  .mands h1{
+    font-size: 6vw;
+    font-weight: 400;
+    font-family: "AvenirRoman";
+  }
+  
+  .mands p{
+    font-size: 3vw;
+    padding-right: 0vw;
+    font-weight: 400;
+    font-family: "ArconRegular";
+    margin-top: 1vh;
   }
   
 }
