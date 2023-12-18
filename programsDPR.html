@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drug Policy Reform</title>
+    <link rel="stylesheet" href="programsDPR.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+
+
+     <!-- Header -->
+
+     <header id="headSection">
+
+        <a onclick="homePage()"  href="index.html"><img id="yrHeaderLogo" src="images/yrLogoDark.png" alt="logo"></a>
+  
+          <nav id="ulList">
+            <ul>
+              <li><a  id="liDefault"  href="index.html">Home</a></li>
+              <li><a id="liOne" href="about.html">About Us</a></li>
+              <li class="resources"> 
+                <a id="liTwo"  href="#">Program</a> 
+                <ul>
+                  <li ><a href="programsDPR.html">Drug Policy Reform</a></li>
+                  <li><a href="#">Health</a></li>
+                  <li><a href="#">Youth Empowerment</a></li>
+                  <li><a href="#">Research</a></li>
+                </ul>
+              </li>
+              <li class="resources"> 
+                <a id="liThree"  href="#">Resources</a>
+                <ul>
+                  <li><a href="#">Annual Report</a></li>
+                  <li><a href="#">Publications</a></li>
+                </ul>
+              </li>
+              <li><a id="liFour"  href="#">Campaigns</a></li>
+              <li><a id="liFive"  href="#">Careers</a></li>
+              <li><a id="liSix"  href="#">Blog</a></li>
+            </ul>
+          </nav>
+  
+         <button id="nav" onclick="openNavBar()"><img id="navImage" src="images/hamburgerDark.png" alt=""></button> 
+
+       <button id="navAlpha" onclick="closeNavBar()"><img id="navImageOne" src="images/cancel.png" alt=""></button> 
+      </header>
+
+
+
+
+
+
+    <section id="drugPolicyReform" class="drugPolicyReform">
+        <h2 id="programsToggle"><span>Programs</span> / Drug Policy Reform</h2>
+
+        <div class="dprContainer">
+
+            <!-- policy Advocacy -->
+            <div class="PolicyAdvocacy">
+                <img src="images/share.png" alt="share">
+                <h1> <Span>Policy</Span> Advocacy</h1>
+                <p>
+                    YouthRISE Nigeria is at the forefront of policy reform advocacy in Nigeria, we are committed to promoting drug policy reform in Nigeria....
+                </p>
+
+                <button onclick="showPolicyAdvocacyPopUp()" class="bnt" >Read More...</button>
+            </div>
+
+            <!-- CSOs & Stakeholders Engagement -->
+            <div class="PolicyAdvocacy">
+                <img src="images/share.png" alt="share">
+                <h1> <Span>CSOs & Stakeholders</Span> <br> Engagement</h1>
+                <p>
+                    YouthRISE Nigeria works with government multi-sectoral stakeholders and technical partners at all levels, and civil society networks to advance...
+                </p>
+
+                <button class="bnt" onclick="showCSOsStakeholdersEngagementPopUp()">Read More...</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="policyAdvocacyPopUp" class="policyAdvocacyPopUp">
+          <!-- policy advocacy pop up -->
+        <div class="popUpContent">
+            <h1>Policy Advocacy</h1>
+            <p>
+                YouthRISE Nigeria is at the forefront of policy reform advocacy in Nigeria, we are committed to promoting drug policy reform in Nigeria. The aim is to advance public policies based on scientific evidence, human rights, and public health, prioritizing the well-being and safety of individuals and communities, especially those who use drugs. At YouthRISE Nigeria, we continue to advocate for policies prioritizing prevention, harm reduction, and treatment, and providing alternatives to incarceration for people who use drugs.
+            </p>
+
+            <button onclick="closePolicyAdvocacyPopUp()">Close</button>
+
+        </div>
+
+    </section>
+
+    <section id="CSOsStakeholdersEngagementPopUp" class="CSOsStakeholdersEngagementPopUp">
+        <!-- CSOs & Stakeholders Engagement pop up -->
+      <div class="popUpContent">
+          <h1>CSOs & Stakeholders Engagement</h1>
+          <p>
+            YouthRISE Nigeria works with government multi-sectoral stakeholders and technical partners at all levels, and civil society networks to advance human, effective, and evidence-based drug and health policies in Nigeria.  In the last decade, we have engaged diverse stakeholders in training and dialogues on the need for evidence-based drug policy. Our advocacy work is focused on driving the National response toward public health rather than criminalization. 
+          </p>
+
+          <button onclick="closeCSOsStakeholdersEngagementPopUp()">Close</button>
+
+      </div>
+
+  </section>
+
+
+
+
+
+  <script src="programsDPR.js"></script>
+    
+</body>
+</html>
