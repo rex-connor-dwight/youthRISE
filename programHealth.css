@@ -163,11 +163,22 @@ body{
 }
 
 
+
+
+
+
+
 .programHealth{
     display: flex;
     flex-direction: column;
     padding: 12% 4vw 0vh 4vw;
     color: var(--darkGreen);
+}
+
+.programsHealthHeader{
+  background: var(--darkGreen);
+  color: var(--AuxilaryWhite);
+  padding:  3vw;
 }
 
 
@@ -192,132 +203,87 @@ body{
     margin-top: 2vh;
 }
 
+.programContainerOne{
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  margin: 8vh -.5vw 0 -.5vw;
+  width: 100%;
+  flex-wrap: wrap;
+}
 
-.healthContainer, .healthContainerOne, .healthContainerTwo {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin:  0 -.3vw;
+.programContainerTwo{
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  margin: 8vh -.5vw 0 -.5vw;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.programContents{
+  width: 31%;
+  padding: 0 .5vw;
+  height: inherit;
+}
+
+.programContentsTwo{
+  width: 47%;
+  padding: 0 .5vw;
+  height: inherit;
+}
+
+.programContents h1{
+  font-size: 1.8vw;
+  font-weight: 800;
+  font-family: "AvenirHeavy";
+  line-height: 2.2vw;
+  margin-bottom: 2vw;
+}
+
+.programContents h1 span{
+  font-size: 1.8vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+}
+
+.programContents p{
+  font-size: .9vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  margin-bottom: 2vw;
+  /* text-align: justify; */
+}
+
+.programContentsTwo h1{
+  font-size: 1.8vw;
+  font-weight: 800;
+  font-family: "AvenirHeavy";
+  line-height: 2.2vw;
+  margin-bottom: 2vw;
+}
+
+.programContentsTwo h1 span{
+  font-size: 1.8vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+}
+
+.programContentsTwo p{
+  font-size: .9vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  margin-bottom: 2vw;
+  /* text-align: justify; */
 }
 
 
-.hivPTCS{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: url(images/drugPolicyBg.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: var(--AuxilaryWhite);
-    margin: 5vh .3vw 0 .3vw;
-    padding: 5rem 3rem 0 3rem;
-    height: 33vh;
-    border-radius: .2rem;
-    position: relative;
-    overflow: hidden;
-}
-
-
-.hivPTCS img{
-    max-width: 1.5vw;
-    height: auto;
-    position: absolute;
-    top: 2vh;
-    right: 1.5vw;
-    transform: translate(-50%, 50%);
-    cursor: pointer;
-    transition: opacity 0.3s ease-in-out;
-}
-
-
-.hivPTCS:hover img {
-    opacity: 0.8; 
-}
-
-.hivPTCS h1{
-    font-size: 2vw;
-    font-weight: 400;
-    font-family: "AvenirBook";
-    text-align: center;
-}
-
-.hivPTCS h1 span{
-    font-size: 2vw;
-    font-weight: 500;
-    font-family: "AvenirBlack";
-}
-
-.hivPTCS p{
-    margin: 2.5vh 0;
-    font-size: 1.2vw;
-    text-align: center;
-    padding: 0 4vw;
-}
-
-
-.hivPTCS button{
-    border: 0;
-    background: 0;
-    color: var(--lightGreen);
-    font-size: 1.3vw;
-    margin: 6vh;
-    cursor: pointer;
-}
-
-.hivPTCSPopUp, .sexualReproductiveHealthPopUp, .gisPopUp, .harmReductionPopUp, .referralsAndLinkagesnPopUp {
-    display: none;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    background: url(images/drugPolicyBg.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+.programHealth img{
+  border-radius: .2rem;
 }
 
 
 
-.popUpContent{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--grayAuto);
-    padding: 0 4rem;
-    border-radius: .2rem;
-    height: 60%;
-    width: 70%;
-}
-
-.popUpContent h1{
-    font-size: 3vw;
-    margin-bottom: 4vh;
-    font-weight: 600;
-    font-family: "AvenirHeavy";
-}
-
-.popUpContent p{
-    font-size: 1.3vw;
-    font-weight: 400;
-    font-family: "AvenirRoman";
-    margin-bottom: 4vh;
-}
-
-.popUpContent button{
-    width: 20%;
-    border: 0;
-    padding: 1vw;
-    background: var(--AuxilaryWhite);
-    color: var(--darkGreen);
-    font-size: 1vw;
-    border-radius: .2rem;
-    cursor: pointer;
-}
 
 
 
@@ -483,130 +449,5 @@ body{
     }
     
 
-    .healthContainer, .healthContainerOne, .healthContainerTwo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        margin:  0 -.3vw;
-    }
-
-
-
-    .hivPTCS{
-        width: 74%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: url(images/drugPolicyBg.png) no-repeat;
-        background-position: center;
-        background-size: cover;
-        color: var(--AuxilaryWhite);
-        margin: 3vh .3vw 0 .3vw;
-        padding: 5rem 3rem 0 3rem;
-        height: 200px;
-        border-radius: .2rem;
-        position: relative;
-        overflow: hidden;
-    }
-
-
-    .hivPTCS img{
-        max-width: 4.5vw;
-        height: auto;
-        position: absolute;
-        top: 1.5vh;
-        right: 2vw;
-        transform: translate(-50%, 50%);
-        cursor: pointer;
-        transition: opacity 0.3s ease-in-out;
-    }
-
-    .hivPTCS:hover img {
-        opacity: 0.8; 
-    }
-
-    .hivPTCS h1{
-        font-size: 5vw;
-        font-weight: 400;
-        font-family: "AvenirBook";
-        text-align: center;
-    }
-
-    .hivPTCS h1 span{
-        font-size: 5vw;
-        font-weight: 500;
-        font-family: "AvenirBlack";
-    }
-
-    .hivPTCS p{
-        margin: 2.5vh 0;
-        font-size: 2.5vw;
-        text-align: center;
-        padding: 0 4vw;
-    }
-
-
-    .hivPTCS button{
-        border: 0;
-        background: 0;
-        color: var(--lightGreen);
-        font-size: 2.7vw;
-        margin: 4vh;
-        cursor: pointer;
-    }
-
-
-    .hivPTCSPopUp, .sexualReproductiveHealthPopUp, .gisPopUp, .harmReductionPopUp, .referralsAndLinkagesnPopUp{
-        display: none;
-        height: auto;
-        align-items: center;
-        justify-content: center;
-        background: url(images/drugPolicyBg.png) no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .popUpContent{
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: var(--grayAuto);
-        padding: 0 2rem;
-        border-radius: 0;
-        height: 60%;
-        width: 84.5%;
-    }
-
-    .popUpContent h1{
-        font-size: 7vw;
-        margin-bottom: 2vh;
-        font-weight: 600;
-        font-family: "AvenirHeavy";
-    }
-
-    .popUpContent p{
-        font-size: 2.7vw;
-        font-weight: 400;
-        font-family: "AvenirRoman";
-        margin-bottom: 4vh;
-    }
-
-    .popUpContent button{
-        width: 20%;
-        border: 0;
-        padding: 1vw;
-        background: var(--AuxilaryWhite);
-        color: var(--darkGreen);
-        font-size: 2.5vw;
-        border-radius: .2rem;
-        cursor: pointer;
-    }
-
+    
 }
