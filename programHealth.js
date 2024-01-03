@@ -8,6 +8,7 @@ const home = document.getElementById('home');
 const about = document.getElementById('about');
 const yrHeaderLogo = document.getElementById('yrHeaderLogo');
 const highlightContainer = document.getElementById('highlightContainer');
+const programHealth = document.getElementById('programHealth');
 
 
 
@@ -28,12 +29,13 @@ const highlightContainer = document.getElementById('highlightContainer');
 function openNavBar() {
     ulList.style.display = 'flex';
     headSection.style.background = '#06100e'
-    headSection.style.height =  "92vh";
+    headSection.style.height =  "92%";
+    headSection.style.width =  "86%";
     navImage.style.display = 'none';
     navAlpha.style.display = 'block';
     yrHeaderLogo.src = 'images/yrHeaderLogo.png';
-    highlightContainer.style.display = 'none';
-    about.style.display = 'none';
+    document.body.style.overflow = 'hidden';
+    programHealth.style.display = 'none';
 }
 
 
@@ -43,92 +45,6 @@ function closeNavBar(){
     navAlpha.style.display = 'none';
     navImage.style.display = 'block';
     yrHeaderLogo.src = 'images/yrLogoDark.png';
-    highlightContainer.style.display = 'flex';
-    about.style.display = 'flex';
+    programHealth.style.display = 'block';
+    document.body.style.overflow = 'auto';
 }
-
-
-
-const programsToggle = document.getElementById("programsToggle");
-const programHealth =  document.getElementById("programHealth");
-const hivPTCSPopUp = document.getElementById("hivPTCSPopUp");
-const sexualReproductiveHealthPopUp = document.getElementById("sexualReproductiveHealthPopUp");
-const gisPopUp = document.getElementById("gisPopUp");
-const harmReductionPopUp = document.getElementById("harmReductionPopUp");
-const referralsAndLinkagesnPopUp = document.getElementById("referralsAndLinkagesnPopUp");
-
-
-
-function showHivPTCSPopUp(){
-    programHealth.style.display = "none";
-    hivPTCSPopUp.style.display = "block";
-    headSection.style.display = "none";
-}
-
-
-function closeHivPTCSPopUp(){
-    programHealth.style.display = "flex";
-    hivPTCSPopUp.style.display = "none";
-    headSection.style.display = "flex";
-}
-
-
-
-function showSexualReproductiveHealthPopUp(){
-    programHealth.style.display = "none";
-    sexualReproductiveHealthPopUp.style.display = "block";
-    headSection.style.display = "none";
-}
-
-
-function closeSexualReproductiveHealthPopUp(){
-    programHealth.style.display = "flex";
-    sexualReproductiveHealthPopUp.style.display = "none";
-    headSection.style.display = "flex";
-}
-
-
-function showGisPopUp(){
-    programHealth.style.display = "none";
-    gisPopUp.style.display = "block";
-    headSection.style.display = "none";
-}
-
-
-function closeGisPopUp(){
-    programHealth.style.display = "flex";
-    gisPopUp.style.display = "none";
-    headSection.style.display = "flex";
-}
-
-
-
-function showHarmReductionPopUp(){
-    programHealth.style.display = "none";
-    harmReductionPopUp.style.display = "block";
-    headSection.style.display = "none";
-}
-
-
-function closeHarmReductionPopUp(){
-    programHealth.style.display = "flex";
-    harmReductionPopUp.style.display = "none";
-    headSection.style.display = "flex";
-}
-
-
-
-function showReferralsAndLinkagesnPopUp(){
-    programHealth.style.display = "none";
-    referralsAndLinkagesnPopUp.style.display = "block";
-    headSection.style.display = "none";
-}
-
-
-function closeReferralsAndLinkagesnPopUp(){
-    programHealth.style.display = "flex";
-    referralsAndLinkagesnPopUp.style.display = "none";
-    headSection.style.display = "flex";
-}
-
-

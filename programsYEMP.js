@@ -8,6 +8,7 @@ const home = document.getElementById('home');
 const about = document.getElementById('about');
 const yrHeaderLogo = document.getElementById('yrHeaderLogo');
 const highlightContainer = document.getElementById('highlightContainer');
+const programYEMP = document.getElementById('programYEMP');
 
 
 
@@ -28,12 +29,13 @@ const highlightContainer = document.getElementById('highlightContainer');
 function openNavBar() {
     ulList.style.display = 'flex';
     headSection.style.background = '#06100e'
-    headSection.style.height =  "92vh";
+    headSection.style.height =  "92%";
+    headSection.style.width =  "86%";
     navImage.style.display = 'none';
     navAlpha.style.display = 'block';
     yrHeaderLogo.src = 'images/yrHeaderLogo.png';
-    highlightContainer.style.display = 'none';
-    about.style.display = 'none';
+    document.body.style.overflow = 'hidden';
+    programYEMP.style.display = 'none';
 }
 
 
@@ -43,6 +45,6 @@ function closeNavBar(){
     navAlpha.style.display = 'none';
     navImage.style.display = 'block';
     yrHeaderLogo.src = 'images/yrLogoDark.png';
-    highlightContainer.style.display = 'flex';
-    about.style.display = 'flex';
+    programYEMP.style.display = 'flex';
+    document.body.style.overflow = 'auto';
 }

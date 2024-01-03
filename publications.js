@@ -8,7 +8,7 @@ const home = document.getElementById('home');
 const about = document.getElementById('about');
 const yrHeaderLogo = document.getElementById('yrHeaderLogo');
 const highlightContainer = document.getElementById('highlightContainer');
-const annualReport = document.getElementById('annualReport');
+const publications = document.getElementById('publications');
 
 
 
@@ -35,7 +35,7 @@ function openNavBar() {
     navAlpha.style.display = 'block';
     yrHeaderLogo.src = 'images/yrHeaderLogo.png';
     document.body.style.overflow = 'hidden';
-    annualReport.style.display = 'none';
+    publications.style.display = 'none';
 }
 
 
@@ -44,7 +44,7 @@ function closeNavBar(){
     headSection.style.background = 'none'
     navAlpha.style.display = 'none';
     navImage.style.display = 'block';
-    yrHeaderLogo.src = 'images/yrLogoDark.png';
-    annualReport.style.display = 'flex';
+    yrHeaderLogo.src = 'images/yrHeaderLogo.png';
+    publications.style.display = 'block';
     document.body.style.overflow = 'auto';
 }
