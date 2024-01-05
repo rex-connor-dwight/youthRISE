@@ -491,16 +491,17 @@ body{
         display: none;
     }
 
-     .careerPositionContainerOne{
+    .jobTwo{
         display: none;
     }
+
     
     
     .careerPosition{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 0vh 0 3vh 0;
+        margin: 3vh 0 3vh 0;
     }
     
     .jobTag h5{
