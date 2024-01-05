@@ -473,7 +473,7 @@ body{
     
     .epIMG{
         width: 100%;
-        background: url(Images/talkOrange.png) no-repeat;
+        background: url(images/talkOrange.png) no-repeat;
         background-position: center;
         background-size: cover;
         border-radius: .2rem;
