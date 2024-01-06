@@ -5,7 +5,7 @@ const navImage = document.getElementById('navImage');
 const navImageOne = document.getElementById('navImageOne');
 const navAlpha = document.getElementById('navAlpha');
 const home = document.getElementById('home');
-const about = document.getElementById('about');
+const thematic = document.getElementById('thematic');
 const yrHeaderLogo = document.getElementById('yrHeaderLogo');
 
 
@@ -28,6 +28,8 @@ function openNavBar() {
     headSection.style.background = '#06100e'
     navImage.style.display = 'none';
     navAlpha.style.display = 'block';
+    thematic.style.display = 'none';
+    home.style.display = 'none';
 }
 
 
@@ -36,6 +38,8 @@ function closeNavBar(){
     headSection.style.background = 'none'
     navAlpha.style.display = 'none';
     navImage.style.display = 'block';
+    thematic.style.display = 'block';
+    home.style.display = 'flex';
 }
 
 // function homePage(){
