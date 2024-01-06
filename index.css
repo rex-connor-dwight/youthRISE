@@ -49,6 +49,7 @@
     --defaultWhite: #f7fffe;
     --AuxilaryWhite: #e5f6f4;
     --grayGreen: #068a1c;
+    --gray: #c3d6cb;
 }
 
 *{
@@ -448,6 +449,76 @@ body{
 
 
 
+/* interestStories styles */
+
+.interestStories{
+  color: var(--darkGreen);
+  padding: 9vh 5%;
+  background: var(--AuxilaryWhite);
+}
+
+.interestStoriesTop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+.interestStoriesTop h1{
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: "AvenirHeavy";
+  margin-bottom: 1vh;
+}
+
+.underline{
+  width: 10%;
+  background: var(--grayGreen);
+  height: .8vh;
+}
+
+.storiesContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.storiesContents{
+  width: 50%;
+  margin: 0 3%;
+}
+
+.storiesContents h2{
+  font-size: 2vw;
+  font-weight: 600;
+  font-family: "AvenirHeavy";
+  margin-bottom: 2vh;
+}
+
+.storiesContents p{
+  font-size: 1vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  margin-bottom: 2vh;
+  padding-right: 2vw;
+}
+
+.storiesContents button{
+  font-size: .9vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  padding: .8vw 3vw;
+  border: 0;
+  background: var(--grayGreen);
+  color: var(--AuxilaryWhite);
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+
+
+
 
 
 
@@ -463,7 +534,7 @@ body{
     margin: 0;
     padding: 4vh 7vw;
     position: absolute;
-    width: 85%;
+    width: 86%;
     height: 92vh;
     z-index: 2;
   }
@@ -780,7 +851,7 @@ body{
 
 .thematic{
   color: var(--darkGreen);
-  padding: 5vh 5%;
+  padding: 7vh 5%;
   background: var(--AuxilaryWhite);
 }
 
@@ -792,7 +863,7 @@ body{
 }
 
 .thematicHead h1{
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 600;
   font-family: "AvenirHeavy";
   margin-bottom: 1vh;
@@ -803,7 +874,7 @@ body{
 }
 
 .thematicHead p{
-  font-size: 2.2vw;
+  font-size: 2.4vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 1vh;
@@ -824,9 +895,9 @@ body{
 
 .thematicContainer button{
   border: 0;
-  background: var(--darkGreen);
+  background: var(--grayAuto);
   color: var(--AuxilaryWhite);
-  margin: 1vh 0vw;
+  margin: 2vh 0vw;
   width: 100%;
   border-radius: .2rem;
 }
@@ -841,33 +912,111 @@ body{
 
 
 .thematicContents{
-  padding:  4vw 3vw;
+  padding:  6vw 3vw;
 }
 
 .thematicContentsHeader{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
 }
 
 .thematicContentsHeader img{
-  max-width: 5vw;
+  max-width: 8vw;
   height: auto;
-  margin-right: 3vw;
+  margin-right: 0;
+  margin-bottom: 2vh;
 }
 
 .thematicContentsHeader h2{
-  font-size: 4.2vw;
+  font-size: 5vw;
   font-weight: 600;
   font-family: "AvenirHeavy";
 }
 
 .thematicContents p{
-  font-size: 2.2vw;
+  font-size: 2.8vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-top: 1.5vh;
-  text-align: left;
+  text-align: center;
+}
+
+
+
+
+/* interestStories styles */
+
+.interestStories{
+  color: var(--darkGreen);
+  padding: 3vh 5%;
+  background: var(--AuxilaryWhite);
+}
+
+.interestStoriesTop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.interestStoriesTop h1{
+  font-size: 5.5vw;
+  font-weight: 600;
+  font-family: "AvenirHeavy";
+  margin-bottom: .5vh;
+}
+
+.underline{
+  width: 10%;
+  background: var(--grayGreen);
+  height: .5vh;
+}
+
+.storiesContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.storiesContents{
+  width: 100%;
+  margin: 5% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.storiesContents h2{
+  font-size: 5vw;
+  font-weight: 600;
+  font-family: "AvenirHeavy";
+  margin-bottom: 1vh;
+}
+
+.storiesContents p{
+  font-size: 2.8vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  margin-bottom: 2vh;
+  padding-right: 2vw;
+  text-align: center;
+}
+
+.storiesContents button{
+  font-size: 2.5vw;
+  font-weight: 400;
+  font-family: "AvenirRoman";
+  padding: 1.7vw 6vw;
+  border: 0;
+  background: var(--grayGreen);
+  color: var(--AuxilaryWhite);
+  border-radius: 5rem;
+  cursor: pointer;
 }
 
   

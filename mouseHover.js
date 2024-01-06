@@ -6,7 +6,7 @@ const dprBntThree = document.getElementById('dprBntThree');
 
 
 dprBntOne.addEventListener('mouseover', function () {
-    dprBnt.style.backgroundColor = '#06100e';
+    dprBnt.style.backgroundColor = '#51645d';
   });
 
 dprBntOne.addEventListener('mouseout', function () {
@@ -15,7 +15,7 @@ dprBntOne.addEventListener('mouseout', function () {
 
 
 dprBntTwo.addEventListener('mouseover', function () {
-    dprBnt.style.backgroundColor = '#06100e';
+    dprBnt.style.backgroundColor = '#51645d';
   });
 
 dprBntTwo.addEventListener('mouseout', function () {
@@ -24,10 +24,10 @@ dprBntTwo.addEventListener('mouseout', function () {
 
 
 dprBntThree.addEventListener('mouseover', function () {
-    dprBnt.style.backgroundColor = '#06100e';
+    dprBnt.style.backgroundColor = '#51645d';
   });
 
-dprBntThree.addEventListener('mouseout', function () {
+  dprBntThree.addEventListener('mouseout', function () {
     dprBnt.style.backgroundColor = '#068a1c';
   });
 
