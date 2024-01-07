@@ -703,6 +703,41 @@ body{
 }
 
 
+/* partners styles */
+
+
+.partners{
+  padding: 5vh 4%;
+}
+
+.partners h1{
+  font-size: 3vw;
+  font-weight: 500;
+  font-family: "AvenirRoman";
+  margin-bottom: 4vh;
+  color: var(--darkGreen);
+  text-align: center;
+}
+
+.partnersLogo{
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  margin-bottom: 4vh;
+  mix-blend-mode: multiply;
+  position: relative;
+}
+
+.partnersLogo::-webkit-scrollbar{
+  display: none;
+}
+
+.partnersLogo img{
+  max-width: 20vw;
+  height: 17vh;
+  margin-right: 5%;
+  transition: transform 0.5s ease;
+}
 
 
 
@@ -1384,6 +1419,43 @@ body{
   font-family: "AvenirRoman";
   color: var(--AuxilaryWhite);
   cursor: pointer;
+}
+
+
+/* partners styles */
+
+
+.partners{
+  padding: 5vh 4%;
+}
+
+.partners h1{
+  font-size: 6vw;
+  font-weight: 500;
+  font-family: "AvenirRoman";
+  margin-bottom: 4vh;
+  color: var(--darkGreen);
+  text-align: center;
+}
+
+.partnersLogo{
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  margin-bottom: 4vh;
+  mix-blend-mode: multiply;
+  position: relative;
+}
+
+.partnersLogo::-webkit-scrollbar{
+  display: none;
+}
+
+.partnersLogo img{
+  max-width: 18vw;
+  height: auto;
+  margin-right: 5%;
+  transition: transform 0.5s ease;
 }
 
 }
