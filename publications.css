@@ -90,9 +90,7 @@ header img{
   height: auto;
 }
 
-body{
-    background: 0;
-}
+
 
 
 
@@ -152,7 +150,7 @@ header  ul li ul li a {
 
 
 body{
-  color: var(--defaultWhite);
+  color: var(--AuxilaryWhite);
   
 }
 
@@ -370,7 +368,7 @@ body{
     
     
     body{
-      color: var(--defaultWhite);
+      color: var(--AuxilaryWhite);
     }
     
     #nav{
