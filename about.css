@@ -205,13 +205,13 @@ body{
   }
   
   .highlights h1{
-    font-size: 1.3vw;
+    font-size: 1.8vw;
     font-weight: 900;
     font-family:  "AvenirRoman";
   }
   
   .highlights h1 span{
-    font-size: .8vw;
+    font-size: 1.2vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     margin-left: 1vw;
@@ -283,17 +283,18 @@ body{
 }
 
 .historyText h1{
-  font-size: 2vw;
+  font-size: 4vw;
   font-weight: 400;
   font-family: "AvenirHeavy";
   margin-bottom: 2vh;
 }
 
 .historyText p{
-  font-size: 1vw;
+  font-size: 1.3vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   padding-right: 5%;
+  text-align: justify;
 }
 
 .historyVideo{
@@ -312,14 +313,14 @@ body{
 }
 
 .boardMembers h1{
-  font-size: 2vw;
+  font-size: 4vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 2vh;
 }
 
 .boardMembers h1 span{
-  font-size: 2vw;
+  font-size: 4vw;
   font-weight: 700;
   font-family: "AvenirHeavy";
 

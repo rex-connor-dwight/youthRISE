@@ -105,7 +105,7 @@ header  ul {
 
 header  ul li {
   margin-left: 2rem;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -203,7 +203,7 @@ body{
 .homeContainer p{
   width: 55%;
   text-align: center;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   font-weight: 400;
   font-family: "ArconRegular";
   margin-bottom: 2rem;
@@ -241,14 +241,15 @@ body{
   font-weight: 900;
   font-family: "AvenirBlack";
   color: var(--grayAuto);
-  margin-right: .5vw;
+  margin-right: .1vw;
 }
 
 .announceBanner p{
-  font-size: .8vw;
+  font-size: 1.2vw;
   font-weight: 400;
   font-family: "AvenirBook";
   color: var(--lightGreen);
+  padding-left: .1rem;
 }
 
 
@@ -279,7 +280,7 @@ body{
 }
 
 .aboutUs p{
-  font-size: 1.3vw;
+  font-size: 1.6vw;
   font-weight: 400;
   font-family: "AvenirBook";
 }
@@ -387,7 +388,7 @@ body{
 }
 
 .thematicHead p{
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 2vh;
@@ -424,7 +425,8 @@ body{
 
 
 .thematicContents{
-  padding: 2vw;
+  padding: 1.5vw;
+  height: 130px;
 }
 
 .thematicContentsHeader{
@@ -440,13 +442,13 @@ body{
 }
 
 .thematicContentsHeader h2{
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   font-weight: 600;
   font-family: "AvenirHeavy";
 }
 
 .thematicContents p{
-  font-size: .6vw;
+  font-size: .86vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-top: 2vh;
@@ -497,14 +499,14 @@ body{
 }
 
 .storiesContents h2{
-  font-size: 2vw;
+  font-size: 2.5vw;
   font-weight: 600;
   font-family: "AvenirHeavy";
   margin-bottom: 2vh;
 }
 
 .storiesContents p{
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 2vh;
@@ -609,7 +611,7 @@ body{
 }
 
 .hPublications p{
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-top: 6vh;
@@ -617,7 +619,7 @@ body{
 }
 
 .hPublications button{
-  font-size: .8vw;
+  font-size: 1vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-top: 4vh;
@@ -658,10 +660,10 @@ body{
 }
 
 .newsletter p{
-  font-size: .9vw;
+  font-size: 1vw;
   font-weight: 400;
   font-family: "AvenirRoman";
-  width: 44%;
+  width: 45%;
   text-align: center;
   margin-top: 1vh;
 }
@@ -893,7 +895,7 @@ body{
   }
   
   .homeContainer h1 span{
-    font-size: 11.5vw;
+    font-size: 13.5vw;
     text-align: center;
     font-weight: 900;
   }
@@ -903,13 +905,13 @@ body{
   }
   
   .homeContainer p{
-    width: 85%;
+    width: 100%;
     text-align: left;
-    font-size: 2.3vw;
+    font-size: 3vw;
     font-weight: 400;
     font-family: "ArconRegular";
     margin-bottom: 2rem;
-    padding-right: 12vw;
+    padding-right: 0vw;
   }
   
   .homeContainer button{
@@ -919,7 +921,7 @@ body{
     border-radius: .2rem;
     cursor: pointer;
     color: var(--defaultWhite);
-    font-size: 3vw;
+    font-size: 3.5vw;
     margin-right: 44vw;
     width: 50%;
     z-index: 999;
@@ -932,6 +934,7 @@ body{
     position: absolute;
     bottom: 0;
     margin-bottom: 9vh;
+    margin-left: 6vw;
   }
   
   .announceBanner{
@@ -953,7 +956,7 @@ body{
   }
   
   .announceBanner p{
-    font-size: .8vw;
+    font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirBook";
     color: var(--lightGreen);
@@ -1085,7 +1088,7 @@ body{
 }
 
 .thematicHead h1{
-  font-size: 6vw;
+  font-size: 7.2vw;
   font-weight: 600;
   font-family: "AvenirHeavy";
   margin-bottom: 1vh;
@@ -1096,7 +1099,7 @@ body{
 }
 
 .thematicHead p{
-  font-size: 2.4vw;
+  font-size: 3.2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 1vh;
@@ -1135,6 +1138,7 @@ body{
 
 .thematicContents{
   padding:  6vw 3vw;
+  height: auto;
 }
 
 .thematicContentsHeader{
@@ -1158,7 +1162,7 @@ body{
 }
 
 .thematicContents p{
-  font-size: 2.8vw;
+  font-size: 3.2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-top: 1.5vh;
@@ -1221,7 +1225,7 @@ body{
 }
 
 .storiesContents p{
-  font-size: 2.8vw;
+  font-size: 3.2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 2vh;
@@ -1230,7 +1234,7 @@ body{
 }
 
 .storiesContents button{
-  font-size: 2.5vw;
+  font-size: 3.2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   padding: 1.7vw 6vw;
@@ -1278,7 +1282,7 @@ body{
 }
 
 .hCampaigns h1{
-  font-size: 8vw;
+  font-size: 9vw;
   font-weight: 500;
   font-family: "AvenirHeavy";
   margin-bottom: .5vh;
@@ -1287,7 +1291,7 @@ body{
 
 
 .hCampaigns p{
-  font-size: 3vw;
+  font-size: 3.2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 3vh;
@@ -1295,7 +1299,7 @@ body{
 
 
 .hCampaigns button{
-  font-size: 2.5vw;
+  font-size: 3vw;
   font-weight: 400;
   font-family: "AvenirLight";
   border: 0;
@@ -1318,19 +1322,19 @@ body{
 }
 
 .hPublications h1{
-  font-size: 8vw;
+  font-size: 9vw;
   font-weight: 500;
   font-family: "AvenirHeavy";
 }
 
 .hPublications h2{
-  font-size: 4vw;
+  font-size: 4.5vw;
   font-weight: 400;
   font-family: "AvenirRoman";
 }
 
 .hPublications p{
-  font-size: 2.7vw;
+  font-size: 3.2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-top: 3vh;
@@ -1338,7 +1342,7 @@ body{
 }
 
 .hPublications button{
-  font-size: 2.5vw;
+  font-size: 3vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-top: 4vh;
