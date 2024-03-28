@@ -181,13 +181,13 @@ body{
 
 
 .drugPolicyReform h2{
-    font-size: 1.3vw;
+    font-size: 2vw;
     font-weight: 400;
     font-family: "AvenirRoman";
 }
 
 .drugPolicyReform h2 span{
-    font-size: 1.3vw;
+    font-size: 2vw;
     font-weight: 500;
     font-family: "AvenirBlack";
     cursor: pointer;
@@ -195,7 +195,7 @@ body{
 
 
 .drugPolicyReform h5{
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     margin-top: 2vh;
@@ -220,7 +220,7 @@ body{
 
 
 .programContents h1{
-  font-size: 1.8vw;
+  font-size: 2.5vw;
   font-weight: 800;
   font-family: "AvenirHeavy";
   line-height: 2.2vw;
@@ -228,13 +228,13 @@ body{
 }
 
 .programContents h1 span{
-  font-size: 1.8vw;
+  font-size: 2.5vw;
   font-weight: 400;
   font-family: "AvenirRoman";
 }
 
 .programContents p{
-  font-size: 1vw;
+  font-size: 1.3vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 2vw;
@@ -382,13 +382,13 @@ body{
     
     
     .drugPolicyReform h2{
-        font-size: 3.3vw;
+        font-size: 4.5vw;
         font-weight: 400;
         font-family: "AvenirRoman";
     }
     
     .drugPolicyReform h2 span{
-        font-size: 3.3vw;
+        font-size: 4.5vw;
         font-weight: 500;
         font-family: "AvenirBlack";
         cursor: pointer;
@@ -396,7 +396,7 @@ body{
     
     
     .drugPolicyReform h5{
-        font-size: 1.8vw;
+        font-size: 2.4vw;
         font-weight: 400;
         font-family: "AvenirRoman";
         margin-top: 1.4vh;
@@ -422,7 +422,7 @@ body{
     
     
     .programContents h1{
-      font-size: 4.8vw;
+      font-size: 5.8vw;
       font-weight: 800;
       font-family: "AvenirHeavy";
       line-height: 6vw;
@@ -430,13 +430,13 @@ body{
     }
     
     .programContents h1 span{
-      font-size: 4.8vw;
+      font-size: 5.8vw;
       font-weight: 400;
       font-family: "AvenirRoman";
     }
     
     .programContents p{
-      font-size: 2.6vw;
+      font-size: 3vw;
       font-weight: 400;
       font-family: "AvenirRoman";
       margin-bottom: 2vw;

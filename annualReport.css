@@ -223,14 +223,14 @@ body{
 }
 
 .reportTopText p{
-  font-size: .9vw;
+  font-size: 1.3vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 1vw;
 }
 
 .reportTopText h4{
-  font-size: 1vw;
+  font-size: 1.7vw;
   font-weight: 600;
   font-family: "AvenirHeavy";
 }
@@ -264,26 +264,30 @@ body{
 }
 
 .reportContent h1{
-  font-size: 2.5vw;
+  font-size: 3vw;
   font-weight: 800;
   font-family: "AvenirHeavy";
   margin-bottom: .7vw;
 }
 
 .reportContent p{
-  font-size: .8vw;
+  font-size: 1vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: .7vw;
 }
 
+.reportContent a{
+  width: 100%;
+}
+
 .reportContent button{
-  width: 40%;
+  width: 60%;
   margin-top: 1vw;
   border: 0;
   background: var(--GrayGreen);
   color: var(--AuxilaryWhite);
-  font-size: 1vw;
+  font-size: 1.3vw;
   font-weight: 500;
   font-family: "AvenirHeavy";
   padding: .3vw 1.5vw;

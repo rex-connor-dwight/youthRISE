@@ -182,13 +182,13 @@ padding:  3vw;
 
 
 .programYEMP h2{
-  font-size: 1.3vw;
+  font-size: 2vw;
   font-weight: 400;
   font-family: "AvenirRoman";
 }
 
 .programYEMP h2 span{
-  font-size: 1.3vw;
+  font-size: 2vw;
   font-weight: 500;
   font-family: "AvenirBlack";
   cursor: pointer;
@@ -196,7 +196,7 @@ padding:  3vw;
 
 
 .programYEMP h5{
-  font-size: 1.1vw;
+  font-size: 1.3vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-top: 2vh;
@@ -215,7 +215,7 @@ padding:  3vw;
   display: flex;
   align-items: top;
   justify-content: space-between;
-  margin: 8vh -.5vw 0 -.5vw;
+  margin: 8vh -.5vw 12px -.5vw;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -233,7 +233,7 @@ padding:  3vw;
 }
 
 .programContents h1{
-  font-size: 1.8vw;
+  font-size: 2.3vw;
   font-weight: 800;
   font-family: "AvenirHeavy";
   line-height: 2.2vw;
@@ -241,13 +241,13 @@ padding:  3vw;
 }
 
 .programContents h1 span{
-  font-size: 1.8vw;
+  font-size: 2.3vw;
   font-weight: 400;
   font-family: "AvenirRoman";
 }
 
 .programContents p{
-  font-size: .9vw;
+  font-size: 1.3vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 2vw;
@@ -255,7 +255,7 @@ padding:  3vw;
 }
 
 .programContentsTwo h1{
-  font-size: 1.8vw;
+  font-size: 2.3vw;
   font-weight: 800;
   font-family: "AvenirHeavy";
   line-height: 2.2vw;
@@ -263,13 +263,13 @@ padding:  3vw;
 }
 
 .programContentsTwo h1 span{
-  font-size: 1.8vw;
+  font-size: 2.3vw;
   font-weight: 400;
   font-family: "AvenirRoman";
 }
 
 .programContentsTwo p{
-  font-size: .9vw;
+  font-size: 1.3vw;
   font-weight: 400;
   font-family: "AvenirRoman";
   margin-bottom: 2vw;
@@ -277,7 +277,7 @@ padding:  3vw;
 }
 
 
-.programHealth img{
+.programYEMP img{
   border-radius: .2rem;
 }
 
@@ -424,13 +424,13 @@ padding:  3vw;
   
   
   .programYEMP h2{
-    font-size: 3.3vw;
+    font-size: 4.5vw;
     font-weight: 400;
     font-family: "AvenirRoman";
   }
   
   .programYEMP h2 span{
-    font-size: 3.3vw;
+    font-size: 4.5vw;
     font-weight: 500;
     font-family: "AvenirBlack";
     cursor: pointer;
@@ -438,7 +438,7 @@ padding:  3vw;
   
   
   .programYEMP h5{
-    font-size: 1.8vw;
+    font-size: 2.4vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     margin-top: 1.4vh;
@@ -477,7 +477,7 @@ padding:  3vw;
   }
   
   .programContents h1{
-    font-size: 4.8vw;
+    font-size: 5.8vw;
     font-weight: 800;
     font-family: "AvenirHeavy";
     line-height: 6vw;
@@ -485,13 +485,13 @@ padding:  3vw;
   }
   
   .programContents h1 span{
-    font-size: 4.8vw;
+    font-size: 5.8vw;
     font-weight: 400;
     font-family: "AvenirRoman";
   }
   
   .programContents p{
-    font-size: 2.6vw;
+    font-size: 3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     margin-bottom: 2vw;
@@ -499,7 +499,7 @@ padding:  3vw;
   }
   
   .programContentsTwo h1{
-    font-size: 4.8vw;
+    font-size: 5.8vw;
     font-weight: 800;
     font-family: "AvenirHeavy";
     line-height: 6vw;
@@ -507,13 +507,13 @@ padding:  3vw;
   }
   
   .programContentsTwo h1 span{
-    font-size: 4.8vw;
+    font-size: 5.8vw;
     font-weight: 400;
     font-family: "AvenirRoman";
   }
   
   .programContentsTwo p{
-    font-size: 2.6vw;
+    font-size: 3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     margin-bottom: 2vw;
