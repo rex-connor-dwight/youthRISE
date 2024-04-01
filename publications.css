@@ -48,7 +48,7 @@
     --grayAuto: #51645d;
     --defaultWhite: #f7fffe;
     --AuxilaryWhite: #e5f6f4;
-    --GrayGreen: #068a1c;
+    --GrayGreen: #0b5016;
     --auxGreen: #001a16;
   
 }
@@ -175,7 +175,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 15% 5vw 4% 5vw;
-    background: var(--darkGreen);
+    background: var(--GrayGreen);
     color: var(--AuxilaryWhite);
 }
 
@@ -187,7 +187,7 @@ body{
 
 .publicationTop p{
     width: 45%;
-    font-size: .9vw;
+    font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
 }
@@ -201,12 +201,11 @@ body{
 
 .publicationContents{
     display: flex;
-    align-items: center;
     margin-bottom: 6vh;
 }
 
 .publicationContents img{
-    max-width: 16vw;
+    max-width: 20vw;
     height: auto;
     border-radius: .2rem;
 }
@@ -218,15 +217,16 @@ body{
 }
 
 .publicationContentText h1{
+    color: var(--GrayGreen);
     margin-bottom: 1.5vh;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 600;
     font-family: "AvenirHeavy";
 }
 
 .publicationContentText p{
     margin-bottom: 2vh;
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     margin-right: 9%;
@@ -240,9 +240,9 @@ body{
 .preview{
     border: 0;
     padding: 2.5vh 3.5vw;
-    background: var(--auxGreen);
+    background: var(--GrayGreen);
     color: var(--AuxilaryWhite);
-    font-size: .9vw;
+    font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     border-radius: .2rem;
@@ -254,11 +254,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: var(--darkGreen) .1rem solid;
+    border: var(--GrayGreen) .1rem solid;
     background: 0;
     padding: 2.5vh 2.5vw;
     color: var(--darkGreen);
-    font-size: .9vw;
+    font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     border-radius: .2rem;
@@ -410,12 +410,12 @@ body{
         align-items: center;
         justify-content: space-between;
         padding: 30% 5vw 7% 5vw;
-        background: var(--darkGreen);
+        background: var(--GrayGreen);
         color: var(--AuxilaryWhite);
     }
     
     .publicationTop h1{
-        font-size: 6.5vw;
+        font-size: 8.5vw;
         font-weight: 700;
         font-family: "AvenirHeavy";
         width: 100%;
@@ -424,7 +424,7 @@ body{
     
     .publicationTop p{
         width: 100%;
-        font-size: 2.4vw;
+        font-size: 3.5vw;
         font-weight: 400;
         font-family: "AvenirRoman";
     }
@@ -443,7 +443,7 @@ body{
     }
     
     .publicationContents img{
-        max-width: 35vw;
+        max-width: 30vw;
         height: auto;
         border-radius: .2rem;
     }
@@ -456,14 +456,14 @@ body{
     
     .publicationContentText h1{
         margin-bottom: 0vh;
-        font-size: 6vw;
+        font-size: 6.3vw;
         font-weight: 600;
         font-family: "AvenirHeavy";
     }
     
     .publicationContentText p{
         margin-bottom: .4vh;
-        font-size: 1.8vw;
+        font-size: 2.3vw;
         font-weight: 400;
         font-family: "AvenirRoman";
         margin-right: 0%;
@@ -478,9 +478,9 @@ body{
     .preview{
         border: 0;
         padding: .8vh 4.5vw;
-        background: var(--auxGreen);
+        background: var(--GrayGreen);
         color: var(--AuxilaryWhite);
-        font-size: 1.5vw;
+        font-size: 3vw;
         font-weight: 400;
         font-family: "AvenirRoman";
         border-radius: .2rem;
@@ -493,11 +493,11 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        border: var(--darkGreen) .1rem solid;
+        border: var(--GrayGreen) .1rem solid;
         background: 0;
         padding: .7vh 3.5vw;
         color: var(--darkGreen);
-        font-size: 1.5vw;
+        font-size: 3vw;
         font-weight: 400;
         font-family: "AvenirRoman";
         border-radius: .2rem;
@@ -507,8 +507,8 @@ body{
     }
     
     .download img{
-        max-width: 1.7vw;
-        height: 1.7vw;
+        max-width: 2vw;
+        height: 2vw;
         margin-left: 1vw;
     }
     

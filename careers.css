@@ -175,14 +175,14 @@ body{
 }
 
 .careerTop h1{
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: 500;
     font-family: "AvenirHeavy";
     text-align: center;
 }
 
 .careerTop p{
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     text-align: center;
@@ -190,14 +190,14 @@ body{
 }
 
 .careerTop h2{
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-weight: 600;
     font-family: "AvenirHeavy";
     margin-top: 10%;
 }
 
 .careerTop h3{
-    font-size: .9vw;
+    font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
     margin: 1vh 0 5vh 0;
@@ -432,14 +432,14 @@ body{
     }
     
     .careerTop h1{
-        font-size: 9vw;
+        font-size: 11vw;
         font-weight: 500;
         font-family: "AvenirHeavy";
         text-align: left;
     }
     
     .careerTop p{
-        font-size: 2.3vw;
+        font-size: 3.2vw;
         font-weight: 400;
         font-family: "AvenirRoman";
         text-align: left;
@@ -447,14 +447,14 @@ body{
     }
     
     .careerTop h2{
-        font-size: 5.5vw;
+        font-size: 7.5vw;
         font-weight: 600;
         font-family: "AvenirHeavy";
         margin-top: 8%;
     }
     
     .careerTop h3{
-        font-size: 1.9vw;
+        font-size: 3.2vw;
         font-weight: 400;
         font-family: "AvenirRoman";
         margin: .6vh 0 1vh 0;

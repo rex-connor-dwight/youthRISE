@@ -48,6 +48,7 @@
     --grayAuto: #51645d;
     --defaultWhite: #f7fffe;
     --AuxilaryWhite: #e5f6f4;
+    --grayGreen: #068a1c;
 }
 
 *{
@@ -268,6 +269,7 @@ body{
     font-size: 1vw;
     font-weight: 400;
     font-family: "AvenirBook";
+    height: auto;
   }
 
 
@@ -367,7 +369,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--grayAuto);
+  background: var(--grayGreen);
   padding:12vh 4vw;
   margin: 10vh -4vw 0 -4vw;
   color: var(--AuxilaryWhite);
@@ -735,7 +737,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: var(--grayAuto);
+    background: var(--grayGreen);
     padding: 3vh 4vw;
     margin: 5vh -4vw 0 -4vw;
     color: var(--AuxilaryWhite);

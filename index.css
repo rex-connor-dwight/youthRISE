@@ -197,7 +197,7 @@ body{
 }
 
 .homeColoredText{
-  color: var(--lightGreen);
+  color: var(--grayGreen);
 }
 
 .homeContainer p{
@@ -212,7 +212,7 @@ body{
 .homeContainer button{
   border: 0;
   padding: .8rem 3rem;
-  background: var(--grayAuto);
+  background: var(--grayGreen);
   border-radius: .2rem;
   cursor: pointer;
   color: var(--defaultWhite);
@@ -240,7 +240,7 @@ body{
   font-size: 1.8vw;
   font-weight: 900;
   font-family: "AvenirBlack";
-  color: var(--grayAuto);
+  color: var(--AuxilaryWhite);
   margin-right: .1vw;
 }
 
@@ -901,14 +901,14 @@ body{
   }
   
   .homeColoredText{
-    color: var(--lightGreen);
+    color: var(--grayGreen);
   }
   
   .homeContainer p{
     width: 100%;
     text-align: left;
-    font-size: 3vw;
-    font-weight: 400;
+    font-size: 3.2vw;
+    font-weight: 600;
     font-family: "ArconRegular";
     margin-bottom: 2rem;
     padding-right: 0vw;
@@ -917,7 +917,7 @@ body{
   .homeContainer button{
     border: 0;
     padding: .8rem 1rem;
-    background: var(--grayAuto);
+    background: var(--grayGreen);
     border-radius: .2rem;
     cursor: pointer;
     color: var(--defaultWhite);
@@ -951,13 +951,13 @@ body{
     font-size: 5vw;
     font-weight: 900;
     font-family: "AvenirBlack";
-    color: var(--grayAuto);
+    color: var(--AuxilaryWhite);
     margin-right: 0;
   }
   
   .announceBanner p{
     font-size: 1.3vw;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "AvenirBook";
     color: var(--lightGreen);
   }
