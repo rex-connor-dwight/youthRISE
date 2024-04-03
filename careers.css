@@ -171,7 +171,14 @@ body{
     display: flex;
     flex-direction: column;
     color: var(--darkGreen);
-    padding: 13% 12vw 4% 12vw;
+    padding: 13% 0 4% 0;
+}
+
+.careerTopBanner{
+    background-image: url(images/careerTop.png);
+    background-position: center;
+    background-size: cover;
+    padding: 65px 0;
 }
 
 .careerTop h1{
@@ -179,6 +186,7 @@ body{
     font-weight: 500;
     font-family: "AvenirHeavy";
     text-align: center;
+    color: var(--lightGreen);
 }
 
 .careerTop p{
@@ -187,6 +195,7 @@ body{
     font-family: "AvenirRoman";
     text-align: center;
     padding: 0 15vw;
+    color: var(--AuxilaryWhite);
 }
 
 .careerTop h2{
@@ -194,6 +203,7 @@ body{
     font-weight: 600;
     font-family: "AvenirHeavy";
     margin-top: 10%;
+    margin: 80px 12vw 0% 12vw;
 }
 
 .careerTop h3{
@@ -201,6 +211,7 @@ body{
     font-weight: 400;
     font-family: "AvenirRoman";
     margin: 1vh 0 5vh 0;
+    margin: 0% 12vw 0% 12vw;
 }
 
 
@@ -210,6 +221,7 @@ body{
     color: var(--AuxilaryWhite);
     padding:  1vw 2vw;
     border-radius: .3rem;
+    margin: 0% 12vw 0% 12vw;
 }
 
 .careersContainerOne{
@@ -277,25 +289,34 @@ body{
 }
 
 .jobDescriptionNumbring{
-    display: flex;
-    align-items: center;
+    display: block;
     padding: 1.5vh 0;
 }
 
-.bullet{
-    width: 1vw;
-    height: 1.3vh;
-    background: var(--AuxilaryWhite);
-    border-radius: 5rem;
-}
+
 
 
 .jobDescriptionNumbring p{
-    width: 99vw;
+    width: auto;
     font-size: 1.3vw;
     font-weight: 400;
     font-family: "AvenirRoman";
-    margin-left: 1vw;
+}
+
+.jobOutline{
+    width: auto;
+    margin-top: 20px ;
+    color: var(--lightGreen);
+    font-size: 24px;
+}
+
+.mailto{
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.mailto span{
+    color: var(--lightGreen);
 }
 
 
@@ -428,7 +449,12 @@ body{
         display: flex;
         flex-direction: column;
         color: var(--darkGreen);
-        padding: 30% 5vw 4% 5vw;
+        /* padding: 30% 5vw 4% 5vw; */
+    }
+
+    .careerTopBanner{
+        padding: 65px 0;
+        margin-top: 40px;
     }
     
     .careerTop h1{
@@ -436,6 +462,7 @@ body{
         font-weight: 500;
         font-family: "AvenirHeavy";
         text-align: left;
+        padding-left: 20px;
     }
     
     .careerTop p{
@@ -447,17 +474,18 @@ body{
     }
     
     .careerTop h2{
-        font-size: 7.5vw;
+        font-size: 5.5vw;
         font-weight: 600;
         font-family: "AvenirHeavy";
-        margin-top: 8%;
+        padding: 8% 5vw 5px 5vw;
+        margin: 0
     }
     
     .careerTop h3{
         font-size: 3.2vw;
         font-weight: 400;
         font-family: "AvenirRoman";
-        margin: .6vh 0 1vh 0;
+        margin: .6vh 0 0 0;
     }
     
     
@@ -467,6 +495,7 @@ body{
         color: var(--AuxilaryWhite);
         padding:  1.5vw 3vw;
         border-radius: .3rem;
+        margin: 0% 5vw 0% 5vw;
     }
     
     .careersContainerOne{
@@ -535,7 +564,7 @@ body{
     }
     
     .jobDescriptionNumbring{
-        display: flex;
+        display: block;
         align-items: center;
         padding: 1.5vh 0;
     }
@@ -549,11 +578,17 @@ body{
     
     
     .jobDescriptionNumbring p{
-        width: 97vw;
-        font-size: 2.5vw;
+        width: auto;
+        font-size: 3vw;
         font-weight: 400;
         font-family: "AvenirRoman";
-        margin-left: 2.2vw;
+    }
+
+    .jobOutline{
+        width: auto;
+        margin-top: 20px ;
+        color: var(--lightGreen);
+        font-size: 16px;
     }
 
     

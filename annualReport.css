@@ -252,15 +252,22 @@ body{
   display: none;
 }
 
+#arOne{
+  background-image: url(images/AR2018.png);
+  background-position: center;
+  background-size: cover;
+}
+
 
 .reportContent{
   display: flex;
   flex-direction: column;
-  min-width: 15vw;
+  min-width: 25vw;
   background: var(--auxGreen);
   margin-right: 3vw;
   padding: 5vw 2vw 2vw 2vw;
   border-radius: .2rem;
+  height: 310px;
 }
 
 .reportContent h1{
